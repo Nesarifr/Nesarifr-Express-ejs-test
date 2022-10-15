@@ -1,0 +1,14 @@
+[
+  {
+    "title": "asfasfas",
+    "price": 124151,
+    "thumbnail": "https://developer.mozilla.org/es/docs/Learn/Forms/HTML5_input_types",
+    "id": 1
+  },
+  {
+    "title": "asfassfa",
+    "price": 1251251,
+    "thumbnail": "https://developer.mozilla.org/es/docs/Learn/Forms/HTML5_input_types",
+    "id": 2
+  }
+]

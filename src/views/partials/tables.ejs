@@ -1,0 +1,26 @@
+<table class="container">
+        <thead>
+            <tr>
+                <th id="idtable">Id</th>
+                <th id="titletable">Title</th>
+                <th id="pricetable">Price</th>
+                <th id="imagentable">Thumbnail</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+        <% productos.forEach( producto => {%>
+            <tr>
+                <th id="idtable"><%= producto.id %></th>
+                <td id="titletable"><%= producto.title %></td>
+                <td id="pricetable"><%= producto.price %></td>
+                <td id="imagentable">
+                    <img src=<%= producto.thumbnail %> alt="<%= producto.title %>">
+                </td>
+            </tr>
+        <% }) %>
+    </tbody>
+
+
+</table>
+
